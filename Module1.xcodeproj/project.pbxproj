@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4914D4A41A9881620080CB54 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914D4A31A9881620080CB54 /* Animal.m */; };
 		499A8ACE1A987AF700311953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 499A8ACD1A987AF700311953 /* main.m */; };
 		499A8AD11A987AF700311953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 499A8AD01A987AF700311953 /* AppDelegate.m */; };
 		499A8AD41A987AF700311953 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499A8AD31A987AF700311953 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4914D4A21A9881620080CB54 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		4914D4A31A9881620080CB54 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		499A8AC81A987AF700311953 /* Module1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Module1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499A8ACC1A987AF700311953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		499A8ACD1A987AF700311953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				499A8AD81A987AF700311953 /* Images.xcassets */,
 				499A8ADA1A987AF700311953 /* LaunchScreen.xib */,
 				499A8ACB1A987AF700311953 /* Supporting Files */,
+				4914D4A21A9881620080CB54 /* Animal.h */,
+				4914D4A31A9881620080CB54 /* Animal.m */,
 			);
 			path = Module1;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499A8AD41A987AF700311953 /* ViewController.m in Sources */,
+				4914D4A41A9881620080CB54 /* Animal.m in Sources */,
 				499A8AD11A987AF700311953 /* AppDelegate.m in Sources */,
 				499A8ACE1A987AF700311953 /* main.m in Sources */,
 			);
@@ -414,6 +420,7 @@
 				499A8AED1A987AF700311953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		499A8AEE1A987AF700311953 /* Build configuration list for PBXNativeTarget "Module1Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				499A8AF01A987AF700311953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
